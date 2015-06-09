@@ -1,7 +1,7 @@
 sudo apt-get update
 sudo apt-get install openjdk-7-jre openjdk-7-jdk emacs24 git -y
 wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
-sudo cp lein /usr/local/bin/lein-install
+sudo cp lein /usr/local/bin/lein
 sudo chmod a+x /usr/local/bin/lein
 set LEIN_ROOT
 lein
